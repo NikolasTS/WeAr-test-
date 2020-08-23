@@ -33,8 +33,7 @@ module.exports = (sequelize, DataTypes) => {
     task.belongsToMany(models.user, {through: models.taskWorker});
     
     task.addScope('includeUsers', query=>({
-      //sequelize.query(`SELECT * FROM users where "users"."name" like 'Igor'`, { model: Candidate})
-      
+    
       include:{
         model: models.user,
         where: models.sequelize.literal(query)
