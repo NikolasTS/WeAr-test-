@@ -1,0 +1,10 @@
+{
+  "development": {
+      "username": "test_user",
+      "password": "111",
+      "database": "WeArTest",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "logging":false
+    }
+  }

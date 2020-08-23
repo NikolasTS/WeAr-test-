@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Task1",
+        "description" : "Test body Task1",
+        "status": "completed",
+        "mark": 5,
+        "authorId": 1,
+        "projectId": 1
+    },
+    {
+        "name": "Task2",
+        "description" : "Test body Task2",
+        "status": "completed",
+        "mark": 2,
+        "authorId": 1,
+        "projectId": 1,
+    },
+    {
+        "name": "Task3",
+        "description" : "Test body Task3",
+        "status": "active",
+        "mark": 7,
+        "authorId": 2,
+        "projectId": 1,
+    },
+    {
+        "name": "Task4",
+        "description" : "Test body Task4",
+        "status": "completed",
+        "mark": 1,
+        "authorId": 3,
+        "projectId": 2,
+    },
+    {
+        "name": "Task5",
+        "description" : "Test body Task5",
+        "status": "inactive",
+        "mark": 15,
+        "authorId": 4,
+        "projectId": 2,
+    },
+    {
+        "name": "Task6",
+        "description" : "Test body Task6",
+        "status": "completed",
+        "mark": 3,
+        "authorId": 4,
+        "projectId": 3,
+    },
+    {
+        "name": "Task7",
+        "description" : "Test body Task7",
+        "status": "completed",
+        "mark": 2,
+        "authorId": 4,
+        "projectId": 3,
+    },
+    {
+        "name": "Task8",
+        "description" : "Test body Task8",
+        "status": "completed",
+        "mark": 9,
+        "authorId": 1,
+        "projectId": 3,
+    },
+    {
+        "name": "Task9",
+        "description" : "Test body Task9",
+        "status": "inactive",
+        "mark": 0,
+        "authorId": 2,
+        "projectId": 3,
+    }
+    
+]

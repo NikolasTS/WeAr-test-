@@ -1,0 +1,28 @@
+{
+  "name": "WeArTest",
+  "version": "0.0.1",
+  "description": "This is test for WeAR Studio",
+  "main": "scr/index.js",
+  "scripts": {
+    "start": "node scr/index.js",
+    "test": "mocha",
+    "build": "npm install && npx npx sequelize-cli db:create && node scr/models/index && npx sequelize-cli db:seed:all",
+    "create_test": "npx sequelize-cli db:seed:all"
+  },
+  "author": "Nikolay Tsarev ",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "pg": "^8.3.2",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "sequelize-cli": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}

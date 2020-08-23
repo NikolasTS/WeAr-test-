@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Project1",
+        "body" : "Test body for Project1",
+        "status": "completed",
+        "authorId": 1,
+    },
+    {
+        "name": "Project2",
+        "body" : "Test body for Project2",
+        "status": "active",
+        "authorId": 3,
+    },
+    {
+        "name": "Project3",
+        "body" : "Test body for Project3",
+        "status": "inactive",
+        "authorId": 4,
+    }
+]
